@@ -85,14 +85,6 @@ TESTNET_SUDT_SCRIPT_HASHTYPE=type
 $ yarn test
 ```
 
-Neuron also has a reviewer-first test-analysis layer inspired by `ckb-explorer-api-rpc-tests`:
-
-```shell
-$ yarn test:map
-```
-
-See `reviews/README.md` for the test-area map. Review cases use the table format in `templates/test-review.md`; automated tests map to those cases with nearby `TEST-MAP: <CASE-ID>` comments.
-
 ## Download Neuron Binary
 
 If you don't want to bother building from source, you can download a binary from [releases](https://github.com/nervosnetwork/neuron/releases). We offer pre-built binaries for Windows, Linux and macOS.

@@ -36,7 +36,6 @@
     "test:e2e": "yarn build:main && playwright test",
     "test:e2e:headed": "yarn build:main && playwright test --headed",
     "test:e2e:ui": "yarn build:main && playwright test --ui",
-    "test:map": "python3 scripts/check_test_map.py",
     "lint": "lerna run --stream lint",
     "postinstall": "husky install",
     "db:chain": "node ./node_modules/.bin/typeorm",
